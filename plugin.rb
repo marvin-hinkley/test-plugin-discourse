@@ -4,7 +4,7 @@
 # author: Marvin Hinkley
 # url: https://github.com/marvin-hinkley/test-plugin-discourse
 
-enabled_site_setting :test_setting
+enabled_site_setting :test_enabled
 
 class Test
   def initialize(stuff)
@@ -18,7 +18,4 @@ end
 
 after_initialize do
   testObj = Test.new(SiteSetting.test_string)
-  register_javascript <<JS
-console.log('I am from the test plugin!');
-JS
 end

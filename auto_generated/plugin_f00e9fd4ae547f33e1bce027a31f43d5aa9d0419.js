@@ -1,0 +1,2 @@
+(function(){Discourse.LoginMethod.register(Discourse.LoginMethod.create({name: 'mvcp', titleOverride: 'with Microvellum Client Portal', messageOverride: 'Authenticating with Microvellum Client Portal (make sure pop up blockers are not enabled)', frameWidth: '1000', frameHeight: '800'}));
+})();
