@@ -4,6 +4,8 @@
 # author: Marvin Hinkley
 # url: https://github.com/marvin-hinkley/test-plugin-discourse
 
+enabled_site_setting :test_setting
+
 class Test
   def initialize(stuff)
     @stuff = stuff
