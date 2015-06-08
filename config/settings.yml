@@ -1,3 +1,5 @@
 plugins:
-  test_setting:
+  test_enabled:
+    default: true
+  test_string:
     default: 'stuff'

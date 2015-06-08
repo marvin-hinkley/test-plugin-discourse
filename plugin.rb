@@ -17,5 +17,8 @@ class Test
 end
 
 after_initialize do
-  testObj = Test.new('things')
+  testObj = Test.new(SiteSetting.test_string)
+  register_javascript <<JS
+console.log('I am from the test plugin!');
+JS
 end
