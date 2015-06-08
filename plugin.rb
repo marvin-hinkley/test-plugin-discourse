@@ -1,3 +1,3 @@
-register_js <<JS
+register_javascript <<JS
   alert('The test plugin is installed!');
 JS
