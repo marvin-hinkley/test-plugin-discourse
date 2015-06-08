@@ -2,6 +2,7 @@
 # about: testing the plugin installation stuff with things
 # version: 0.1.0
 # author: Marvin Hinkley
+# url: https://github.com/marvin-hinkley/test-plugin-discourse
 
 class Test
   def initialize(stuff)
